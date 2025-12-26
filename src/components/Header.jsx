@@ -57,7 +57,7 @@ export default function Header(){
                     <li className="mx-[15px] my-0">
                         <Link to="/cart" className='text-[lightblue] hover:text-[rgb(71,70,70)]'>Cart 
                         {cart.length > 0 && (
-                            <span className="absolute top-[15px] right-[275px] bg-red-500 text-white text-xs 
+                            <span className="absolute top-[15px] right-[300px] bg-red-500 text-white text-xs 
                                             rounded-full w-4 h-4 flex items-center justify-center">
                                 {cart.length}
                             </span>
